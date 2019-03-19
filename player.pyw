@@ -1,9 +1,6 @@
-import sys,os, codecs
+import sys, os, codecs
 from player import *
 from PyQt5 import QtCore, QtWidgets, QtGui, QtMultimedia
-from pygame import mixer
-
-mixer.init()
 
 class MyWin(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
@@ -28,13 +25,13 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Next.clicked.connect(self.m_playlist.next)
         self.ui.Play.clicked.connect(self.m_player.play)
         self.ui.Add.clicked.connect(self.Add)
-        
+        self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
+
         self.RowCount = 0
 
 
     def Add(self):
         temp = QtWidgets.QFileDialog.getOpenFileNames(self, '', '', "*.mp3")
-        items = []
         for i in range(0,len(temp[0])):
             item = QtGui.QStandardItem(QtCore.QDir(temp[0][i]).dirName())
             self.m_playListModel.setItem(self.RowCount + i, 0, item)
@@ -44,6 +41,10 @@ class MyWin(QtWidgets.QMainWindow):
             url = QtCore.QUrl(temp[0][i])
             self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
         self.RowCount += len(temp[0])
+
+    def SetCurrentIndex(self):
+        index = self.ui.playlistView.selectedIndexes()
+        self.m_playlist.setCurrentIndex(index[0].row())
 
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
