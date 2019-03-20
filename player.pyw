@@ -21,15 +21,34 @@ class MyWin(QtWidgets.QMainWindow):
         self.m_playlist = QtMultimedia.QMediaPlaylist(self.m_player)
         self.m_player.setPlaylist(self.m_playlist)
         self.m_playlist.setPlaybackMode(QtMultimedia.QMediaPlaylist.Loop)
+
         self.ui.Back.clicked.connect(self.m_playlist.previous)
         self.ui.Next.clicked.connect(self.m_playlist.next)
-        self.ui.Play.clicked.connect(self.m_player.play)
+        self.ui.Play.clicked.connect(self.Play)
         self.ui.Add.clicked.connect(self.Add)
+        self.ui.Stop.clicked.connect(self.Stop)
         self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
         self.m_playlist.currentIndexChanged.connect(self.DisplaySongName)
+        self.m_playlist.currentIndexChanged.connect(self.CurrentRow)
 
         self.RowCount = 0
-
+        self.Play = False
+        
+    def Play(self):
+        if(self.Play == False):
+            self.m_player.play()            
+            self.ui.Play.setIcon(QtGui.QIcon("Pause.png"))
+            self.Play = True
+        else:
+            self.m_player.pause()
+            self.ui.Play.setIcon(QtGui.QIcon("Play.png"))
+            self.Play = False
+    
+    def Stop(self):
+        self.m_player.stop()
+        self.ui.Play.setIcon(QtGui.QIcon("Play.png"))
+        self.Play = False
+        
     def Add(self):
         self.RowCount = self.m_playlist.mediaCount()
         temp = QtWidgets.QFileDialog.getOpenFileNames(self, '', '', "*.mp3")
@@ -48,15 +67,20 @@ class MyWin(QtWidgets.QMainWindow):
 
     def DisplaySongName(self):
         index = self.CurrentIndex()
-        Name = self.getPlaylistModelData(index)
+        Name = self.GetPlaylistModelData(index)
         self.ui.currentTrack.setText(Name)
+        self.setFocus()
     
-    def getPlaylistModelData(self, index):
+    def GetPlaylistModelData(self, index):
         data = self.m_playListModel.index(index, 0)
         return self.m_playListModel.data(data)
 
     def CurrentIndex(self):
         return self.m_playlist.currentIndex()
+
+    def CurrentRow(self):
+        index = self.CurrentIndex()
+        self.ui.playlistView.selectRow(index)
 
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
