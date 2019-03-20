@@ -26,11 +26,12 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Play.clicked.connect(self.m_player.play)
         self.ui.Add.clicked.connect(self.Add)
         self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
+        self.m_playlist.currentIndexChanged.connect(self.DisplaySongName)
 
         self.RowCount = 0
 
-
     def Add(self):
+        self.RowCount = self.m_playlist.mediaCount()
         temp = QtWidgets.QFileDialog.getOpenFileNames(self, '', '', "*.mp3")
         for i in range(0,len(temp[0])):
             item = QtGui.QStandardItem(QtCore.QDir(temp[0][i]).dirName())
@@ -40,11 +41,22 @@ class MyWin(QtWidgets.QMainWindow):
 
             url = QtCore.QUrl(temp[0][i])
             self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
-        self.RowCount += len(temp[0])
 
     def SetCurrentIndex(self):
         index = self.ui.playlistView.selectedIndexes()
         self.m_playlist.setCurrentIndex(index[0].row())
+
+    def DisplaySongName(self):
+        index = self.CurrentIndex()
+        Name = self.getPlaylistModelData(index)
+        self.ui.currentTrack.setText(Name)
+    
+    def getPlaylistModelData(self, index):
+        data = self.m_playListModel.index(index, 0)
+        return self.m_playListModel.data(data)
+
+    def CurrentIndex(self):
+        return self.m_playlist.currentIndex()
 
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
