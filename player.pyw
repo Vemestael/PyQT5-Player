@@ -1,6 +1,7 @@
 import sys, os, codecs
 from player import *
 from PyQt5 import QtCore, QtWidgets, QtGui, QtMultimedia
+from msvcrt import getch
 
 class MyWin(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
@@ -9,13 +10,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
         self.m_playListModel = QtGui.QStandardItemModel(self)
         self.ui.playlistView.setModel(self.m_playListModel)
-        self.m_playListModel.setHorizontalHeaderLabels(["Audio Track", "File Path"])
-        self.ui.playlistView.hideColumn(1)
-        self.ui.playlistView.verticalHeader().setVisible(False)
-        self.ui.playlistView.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
-        self.ui.playlistView.setSelectionMode(QtWidgets.QAbstractItemView.SingleSelection)
-        self.ui.playlistView.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        self.ui.playlistView.horizontalHeader().setStretchLastSection(True)
+        self.PlayListView()
 
         self.m_player = QtMultimedia.QMediaPlayer(self)
         self.m_playlist = QtMultimedia.QMediaPlaylist(self.m_player)
@@ -30,10 +25,22 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
         self.m_playlist.currentIndexChanged.connect(self.DisplaySongName)
         self.m_playlist.currentIndexChanged.connect(self.CurrentRow)
+        self.ui.Volume.valueChanged.connect(self.SetVolume)
+        self.m_player.positionChanged.connect(self.ProgressBar)
+        self.ui.Clear.clicked.connect(self.Clear)
 
         self.RowCount = 0
         self.Play = False
-        
+    
+    def PlayListView(self):
+        self.m_playListModel.setHorizontalHeaderLabels(["Audio Track", "File Path"])
+        self.ui.playlistView.hideColumn(1)
+        self.ui.playlistView.verticalHeader().setVisible(False)
+        self.ui.playlistView.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
+        self.ui.playlistView.setSelectionMode(QtWidgets.QAbstractItemView.SingleSelection)
+        self.ui.playlistView.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.ui.playlistView.horizontalHeader().setStretchLastSection(True)
+    
     def Play(self):
         if(self.Play == False):
             self.m_player.play()            
@@ -81,6 +88,35 @@ class MyWin(QtWidgets.QMainWindow):
     def CurrentRow(self):
         index = self.CurrentIndex()
         self.ui.playlistView.selectRow(index)
+    
+    def SetVolume(self):
+        volume = self.ui.Volume.value()
+        self.m_player.setVolume(volume)
+
+    def Clear(self):
+        self.m_playlist.clear()
+        self.m_playListModel.clear()
+        self.PlayListView()
+
+    def Converting(self, milliseconds):
+        minute = int(milliseconds / 60000)
+        seconds = int((milliseconds % 60000) / 1000)
+        return str(minute)+":"+str(seconds)
+
+    def ProgressBar(self):
+        milliseconds = self.m_player.duration()-2000
+        duration = self.Converting(milliseconds)
+        
+        lasting = milliseconds
+        
+        milliseconds = self.m_player.position()
+        position = self.Converting(milliseconds)
+
+        time = position + " / " + duration
+        self.ui.progressBar.setFormat(time)
+
+        percent = int((milliseconds*100)/lasting)
+        self.ui.progressBar.setValue(percent)
 
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
