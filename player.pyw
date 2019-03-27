@@ -1,7 +1,9 @@
-import sys, os, codecs
+import sys
+import  codecs
 from player import *
+import keyboard
 from PyQt5 import QtCore, QtWidgets, QtGui, QtMultimedia
-from msvcrt import getch
+
 
 class MyWin(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
@@ -20,7 +22,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Back.clicked.connect(self.m_playlist.previous)
         self.ui.Next.clicked.connect(self.m_playlist.next)
         self.ui.Play.clicked.connect(self.Play)
-        self.ui.Add.clicked.connect(self.Add)
+        self.ui.Add.clicked.connect(self.Add)###
         self.ui.Stop.clicked.connect(self.Stop)
         self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
         self.m_playlist.currentIndexChanged.connect(self.DisplaySongName)
@@ -30,8 +32,20 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Clear.clicked.connect(self.Clear)
 
         self.RowCount = 0
-        self.Play = False
-    
+        self.play_status = False
+
+        def Fun(key):
+            if(key.scan_code == -179):
+                self.Play()
+            elif (key.scan_code == -177):
+                self.m_playlist.previous()
+            else:
+                self.m_playlist.next()
+
+        keyboard.on_press_key(-176, Fun)
+        keyboard.on_press_key(-177, Fun)
+        keyboard.on_press_key(-179, Fun)
+
     def PlayListView(self):
         self.m_playListModel.setHorizontalHeaderLabels(["Audio Track", "File Path"])
         self.ui.playlistView.hideColumn(1)
@@ -40,26 +54,26 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.playlistView.setSelectionMode(QtWidgets.QAbstractItemView.SingleSelection)
         self.ui.playlistView.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.ui.playlistView.horizontalHeader().setStretchLastSection(True)
-    
+
     def Play(self):
-        if(self.Play == False):
-            self.m_player.play()            
+        if (self.play_status == False):
+            self.m_player.play()
             self.ui.Play.setIcon(QtGui.QIcon("Pause.png"))
-            self.Play = True
+            self.play_status = True
         else:
             self.m_player.pause()
             self.ui.Play.setIcon(QtGui.QIcon("Play.png"))
-            self.Play = False
-    
+            self.play_status = False
+
     def Stop(self):
         self.m_player.stop()
         self.ui.Play.setIcon(QtGui.QIcon("Play.png"))
-        self.Play = False
-        
+        self.play_status = False
+
     def Add(self):
         self.RowCount = self.m_playlist.mediaCount()
         temp = QtWidgets.QFileDialog.getOpenFileNames(self, '', '', "*.mp3")
-        for i in range(0,len(temp[0])):
+        for i in range(0, len(temp[0])):
             item = QtGui.QStandardItem(QtCore.QDir(temp[0][i]).dirName())
             self.m_playListModel.setItem(self.RowCount + i, 0, item)
             item = QtGui.QStandardItem(temp[0][i])
@@ -67,6 +81,8 @@ class MyWin(QtWidgets.QMainWindow):
 
             url = QtCore.QUrl(temp[0][i])
             self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
+        if(self.play_status == False):
+            self.Play()
 
     def SetCurrentIndex(self):
         index = self.ui.playlistView.selectedIndexes()
@@ -77,7 +93,7 @@ class MyWin(QtWidgets.QMainWindow):
         Name = self.GetPlaylistModelData(index)
         self.ui.currentTrack.setText(Name)
         self.setFocus()
-    
+
     def GetPlaylistModelData(self, index):
         data = self.m_playListModel.index(index, 0)
         return self.m_playListModel.data(data)
@@ -88,7 +104,7 @@ class MyWin(QtWidgets.QMainWindow):
     def CurrentRow(self):
         index = self.CurrentIndex()
         self.ui.playlistView.selectRow(index)
-    
+
     def SetVolume(self):
         volume = self.ui.Volume.value()
         self.m_player.setVolume(volume)
@@ -97,29 +113,33 @@ class MyWin(QtWidgets.QMainWindow):
         self.m_playlist.clear()
         self.m_playListModel.clear()
         self.PlayListView()
+        self.ui.currentTrack.setText("")
+        if(self.play_status == True):
+            self.Play()
 
     def Converting(self, milliseconds):
         minute = int(milliseconds / 60000)
         seconds = int((milliseconds % 60000) / 1000)
-        return str(minute)+":"+str(seconds)
+        return str(minute) + ":" + str(seconds)
 
     def ProgressBar(self):
-        milliseconds = self.m_player.duration()-2000
+        milliseconds = self.m_player.duration() - 2000
         duration = self.Converting(milliseconds)
-        
+
         lasting = milliseconds
-        
+
         milliseconds = self.m_player.position()
         position = self.Converting(milliseconds)
 
         time = position + " / " + duration
         self.ui.progressBar.setFormat(time)
 
-        percent = int((milliseconds*100)/lasting)
+        percent = int((milliseconds * 100) / lasting)
         self.ui.progressBar.setValue(percent)
 
-if __name__=="__main__":
+if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     myapp = MyWin()
     myapp.show()
+
     sys.exit(app.exec_())
