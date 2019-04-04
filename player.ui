@@ -68,7 +68,7 @@
      <number>0</number>
     </property>
     <property name="format">
-     <string>%v0:%v0</string>
+     <string>00:00</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Stop">
@@ -286,7 +286,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QTableView" name="playlistView">
+   <widget class="QTableWidget" name="playlistView">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -296,12 +296,12 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTableView" name="songsView">
+   <widget class="QTableWidget" name="songsView">
     <property name="geometry">
      <rect>
-      <x>-5</x>
+      <x>0</x>
       <y>50</y>
-      <width>256</width>
+      <width>251</width>
       <height>211</height>
      </rect>
     </property>
