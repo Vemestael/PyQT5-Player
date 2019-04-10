@@ -1,1 +1,25 @@
-{"access_token": "ya29.GlzmBvbW5V3dPfOJoSMNEaHRbbTeguv1-NWW7lfuc3-i_oIgCyageI7dVrSa2Ssq2oXJEmNgh-ukijsGmB1cbxZwz_ieMFdtcwhyMGzh4z4WEqwzN2ABd7tNqWGRYw", "client_id": "228293309116.apps.googleusercontent.com", "client_secret": "GL1YV0XMp0RlL7ylCV3ilFz-", "refresh_token": "1/fUbhG1UVI37qLPhWtRMow3pNAgD8lZBHGJ-HY0xXP5EH6iduP4SRwNgDa1dhkDL3", "token_expiry": "2019-04-09T19:02:46Z", "token_uri": "https://oauth2.googleapis.com/token", "user_agent": null, "revoke_uri": "https://oauth2.googleapis.com/revoke", "id_token": null, "id_token_jwt": null, "token_response": {"access_token": "ya29.GlzmBvbW5V3dPfOJoSMNEaHRbbTeguv1-NWW7lfuc3-i_oIgCyageI7dVrSa2Ssq2oXJEmNgh-ukijsGmB1cbxZwz_ieMFdtcwhyMGzh4z4WEqwzN2ABd7tNqWGRYw", "expires_in": 3600, "scope": "https://www.googleapis.com/auth/skyjam", "token_type": "Bearer"}, "scopes": ["https://www.googleapis.com/auth/skyjam"], "token_info_uri": "https://oauth2.googleapis.com/tokeninfo", "invalid": false, "_class": "OAuth2Credentials", "_module": "oauth2client.client"}
+{
+  "access_token": "ya29.GlzmBoRRg5SXwrQlrCHsCi104XxUx4Vxy-1vhnD3QCNLTlo1PP4AShuqKHtuHyBnlueZPtJlVImnFGOjilRU6cZXwRxM4aVmrepawPMKqVdfkyae188H53WzIjDOaw",
+  "client_id": "228293309116.apps.googleusercontent.com",
+  "client_secret": "GL1YV0XMp0RlL7ylCV3ilFz-",
+  "refresh_token": "1/fUbhG1UVI37qLPhWtRMow3pNAgD8lZBHGJ-HY0xXP5EH6iduP4SRwNgDa1dhkDL3",
+  "token_expiry": "2019-04-10T20:04:48Z",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "user_agent": null,
+  "revoke_uri": "https://oauth2.googleapis.com/revoke",
+  "id_token": null,
+  "id_token_jwt": null,
+  "token_response": {
+    "access_token": "ya29.GlzmBoRRg5SXwrQlrCHsCi104XxUx4Vxy-1vhnD3QCNLTlo1PP4AShuqKHtuHyBnlueZPtJlVImnFGOjilRU6cZXwRxM4aVmrepawPMKqVdfkyae188H53WzIjDOaw",
+    "expires_in": 3600,
+    "scope": "https://www.googleapis.com/auth/skyjam",
+    "token_type": "Bearer"
+  },
+  "scopes": [
+    "https://www.googleapis.com/auth/skyjam"
+  ],
+  "token_info_uri": "https://oauth2.googleapis.com/tokeninfo",
+  "invalid": false,
+  "_class": "OAuth2Credentials",
+  "_module": "oauth2client.client"
+}

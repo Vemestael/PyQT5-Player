@@ -3,6 +3,7 @@ from player import *
 import keyboard
 from PyQt5 import QtCore, QtWidgets, QtGui, QtMultimedia
 from ia256utilities import filesystem
+from gmusicapi import Mobileclient
 
 
 class MyWin(QtWidgets.QMainWindow):
@@ -17,8 +18,9 @@ class MyWin(QtWidgets.QMainWindow):
         self.m_playlist = QtMultimedia.QMediaPlaylist(self.m_player)
         self.m_player.setPlaylist(self.m_playlist)
         self.m_playlist.setPlaybackMode(QtMultimedia.QMediaPlaylist.Loop)
+        self.gmusic_api = Mobileclient()
 
-        self.all_songs()
+        self.all_songs(self.folder_traversal())
 
         self.ui.Back.clicked.connect(self.m_playlist.previous)
         self.ui.Next.clicked.connect(self.m_playlist.next)
@@ -26,6 +28,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Add.clicked.connect(self.Add)
         self.ui.Stop.clicked.connect(self.Stop)
         self.ui.playlistView.doubleClicked.connect(self.SetCurrentIndex)
+        self.m_playlist.currentIndexChanged.connect(self.get_stream_url)
         self.m_playlist.currentIndexChanged.connect(self.DisplaySongName)
         self.m_playlist.currentIndexChanged.connect(self.CurrentRow)
         self.ui.Volume.valueChanged.connect(self.SetVolume)
@@ -33,6 +36,8 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Clear.clicked.connect(self.Clear)
         self.ui.actionSelect.triggered.connect(self.directory_selection)
         self.ui.actionClear.triggered.connect(self.clear_song_view)
+        self.ui.pushButton.clicked.connect(self.g_play_music_login)
+        self.ui.pushButton_2.clicked.connect(self.add_music)
 
         self.RowCount = 0
         self.play_status = False
@@ -120,7 +125,7 @@ class MyWin(QtWidgets.QMainWindow):
     def Clear(self):
         self.m_playlist.clear()
         self.ui.playlistView.clear()
-        self.PlayListView()
+        self.TableView(self.ui.playlistView)
         self.ui.currentTrack.setText("")
         if(self.play_status == True):
             self.Play()
@@ -149,7 +154,7 @@ class MyWin(QtWidgets.QMainWindow):
         dir = QtWidgets.QFileDialog.getExistingDirectory()
         dir = {"dir": dir}
         filesystem.save_json(dir, "json/dir.json")
-        self.all_songs()
+        self.all_songs(self.folder_traversal())
 
     def directory_read(self):
         dir = filesystem.load_json("json/dir.json")
@@ -173,8 +178,7 @@ class MyWin(QtWidgets.QMainWindow):
 
             return temp
 
-    def all_songs(self):
-        temp = self.folder_traversal()
+    def all_songs(self, temp):
         self.ui.songsView.clear()
         if temp == 1:
             self.ui.songsView.setHorizontalHeaderLabels(["Audio Track"])
@@ -230,6 +234,41 @@ class MyWin(QtWidgets.QMainWindow):
 
         url = QtCore.QUrl(url)
         self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
+
+    def g_play_music_login(self):
+        self.gmusic_api.oauth_login(self.gmusic_api.FROM_MAC_ADDRESS, "json/oauth_data.json")
+        print(self.gmusic_api.is_authenticated())
+
+    def get_all_songs(self):
+        songs = self.gmusic_api.get_all_songs()
+        filesystem.save_json(songs, "json/music.json")
+
+    def add_music(self):
+        songs = filesystem.load_json("json/music.json")
+        self.clear_song_view()
+        self.TableView(self.ui.songsView)
+        self.ui.songsView.setRowCount(len(songs))
+        temp = [[], []]
+        for i in range(len(songs)):
+            id = songs[i].get("id")
+            title = songs[i].get("title")
+            artist = songs[i].get("artist")
+            name = artist + " - " + title
+            temp[0].append(name)
+            temp[1].append(id)
+        self.all_songs(temp)
+
+    def get_stream_url(self, index):
+        url = self.m_playlist.media(index).canonicalUrl().url()
+        print(url)
+        if url.find(":", 1, 2) == -1:
+            url = self.gmusic_api.get_stream_url(url)
+            url = QtCore.QUrl(url)
+            self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
+            self.m_playlist.moveMedia(index, self.m_playlist.mediaCount() - 1)
+            self.m_playlist.removeMedia(self.m_playlist.mediaCount() - 1)
+            url = self.m_playlist.media(index).canonicalUrl().url()
+            print(url)
 
 
 if __name__ == "__main__":
