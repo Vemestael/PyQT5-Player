@@ -1,0 +1,1419 @@
+[
+    {
+        "kind": "sj#radioStation",
+        "id": "6f532ba8-bd72-3c15-bbe9-4de3f5192a29",
+        "clientId": "cee5bafd-b6bc-49aa-bc03-68d727113fe5",
+        "lastModifiedTimestamp": "1541770874277000",
+        "recentTimestamp": "1541770873887000",
+        "name": "Let It Die",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackLockerId": "d73139ca-6580-3827-b660-6a2cb1f821d4",
+            "seedType": "1",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "id": "d73139ca-6580-3827-b660-6a2cb1f821d4",
+                    "creationTimestamp": "1541414959080426",
+                    "lastModifiedTimestamp": "1541591970469544",
+                    "recentTimestamp": "1541591963859000",
+                    "deleted": false,
+                    "title": "Let It Die",
+                    "artist": "Ozzy Osbourne",
+                    "composer": "Ozzy Osbourne",
+                    "album": "Scream (Expanded Edition)",
+                    "albumArtist": "Оззи Осборн",
+                    "year": 2010,
+                    "trackNumber": 1,
+                    "genre": "Метал",
+                    "durationMillis": "365000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh6.ggpht.com/331d-_4ZspPbBW4KGR0vCK-SOzZQneQ_2NnB1ddO97Hoa3IJOubI9Reuaj9ktVv9r1vcXjrbgA",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 6,
+                    "discNumber": 1,
+                    "rating": "0",
+                    "estimatedSize": "14634878",
+                    "trackType": "8",
+                    "storeId": "Tkqu4ae2tqmqeslrngvusklz4em",
+                    "albumId": "b53dibgzgbe2kfiselslhxetxm",
+                    "artistId": [
+                        "7siteupwdxa3oh6cc4ycetlyca"
+                    ],
+                    "nid": "kqu4ae2tqmqeslrngvusklz4em",
+                    "explicitType": "2",
+                    "lastRatingChangeTimestamp": "1541420058326000"
+                }
+            }
+        },
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh6.ggpht.com/331d-_4ZspPbBW4KGR0vCK-SOzZQneQ_2NnB1ddO97Hoa3IJOubI9Reuaj9ktVv9r1vcXjrbgA",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "8c7ad030-705a-3af2-b74f-4cd5a31d05ad",
+        "clientId": "b6b54390-8ec4-49c4-81cc-b65f814592e9",
+        "lastModifiedTimestamp": "1549529207659000",
+        "recentTimestamp": "1549529207301000",
+        "name": "The Infection",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tvrczvo2sv6hc2q4mvboesitfvu",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1548278009193613",
+                    "title": "The Infection",
+                    "artist": "Disturbed",
+                    "composer": "",
+                    "album": "Asylum",
+                    "albumArtist": "Disturbed",
+                    "year": 2010,
+                    "trackNumber": 3,
+                    "genre": "Метал",
+                    "durationMillis": "248000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/vWrpnnsvbE1h8W6bHMRH1B3gZXyvqQELYZRFeOykp9wYdtuPt99yJt76tzGzD053w3G1mjXR_d4",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 5,
+                    "discNumber": 1,
+                    "estimatedSize": "9955814",
+                    "trackType": "7",
+                    "storeId": "Tvrczvo2sv6hc2q4mvboesitfvu",
+                    "albumId": "fkp6mju2as7trkn2f6xh5elffy",
+                    "artistId": [
+                        "gtwc76vpoctlslvtttojp7yzia"
+                    ],
+                    "nid": "vrczvo2sv6hc2q4mvboesitfvu",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2"
+                }
+            }
+        },
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/vWrpnnsvbE1h8W6bHMRH1B3gZXyvqQELYZRFeOykp9wYdtuPt99yJt76tzGzD053w3G1mjXR_d4",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/vWrpnnsvbE1h8W6bHMRH1B3gZXyvqQELYZRFeOykp9wYdtuPt99yJt76tzGzD053w3G1mjXR_d4",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/JUOHewvi4R-9s07uX9otQPKVUms4sRGL6qxxvFKjUvxUSd92hVHUH59xIw",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/nZM2S0LM3cSXh59LMy0TjMN510BEBaTmA3Wkop2HZ9XkiFO0q5ok0aA_",
+                "aspectRatio": "4"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "f7c1eb2d-9c8e-367b-959c-2ecfc8bbf5bf",
+        "clientId": "Tjzfosjoy3ujzt5zcizqknuz64y",
+        "lastModifiedTimestamp": "1550924700026000",
+        "recentTimestamp": "1550924699986000",
+        "name": "Right Round",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tjzfosjoy3ujzt5zcizqknuz64y",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "title": "Right Round",
+                    "artist": "Flo Rida",
+                    "composer": "",
+                    "album": "R.O.O.T.S. (Route Of Overcoming The Struggle)",
+                    "albumArtist": "Flo Rida",
+                    "year": 2009,
+                    "trackNumber": 5,
+                    "genre": "Хип-хоп/рэп",
+                    "durationMillis": "204000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh6.ggpht.com/4h7fo-a9DmYZuQJMr6jBJ87UAdRYGwpJyhk-LxP4kvxLwSo9y2MU6g_DPn9MRoa4L1A7i_g1",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "discNumber": 1,
+                    "estimatedSize": "8187847",
+                    "trackType": "7",
+                    "storeId": "Tjzfosjoy3ujzt5zcizqknuz64y",
+                    "albumId": "zbctqkjvmdidcumqzibmjy7hiq",
+                    "artistId": [
+                        "fsyvsoz36ym7vhjzwz3htjqs7e"
+                    ],
+                    "nid": "jzfosjoy3ujzt5zcizqknuz64y",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2",
+                    "primaryVideo": {
+                        "kind": "sj#video",
+                        "id": "CcCw1ggftuQ",
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/vi/CcCw1ggftuQ/mqdefault.jpg",
+                                "width": 320,
+                                "height": 180
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tjzfosjoy3ujzt5zcizqknuz64y",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh6.ggpht.com/4h7fo-a9DmYZuQJMr6jBJ87UAdRYGwpJyhk-LxP4kvxLwSo9y2MU6g_DPn9MRoa4L1A7i_g1",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh6.ggpht.com/4h7fo-a9DmYZuQJMr6jBJ87UAdRYGwpJyhk-LxP4kvxLwSo9y2MU6g_DPn9MRoa4L1A7i_g1",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/oHW2koJ-nVcdJgtYDd5Z5WgWc8zHKqNAbPe9LpaRFM_O6T9Z82d1Z6An",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/BNXLMBrdSlEVZsVAubkkCY8TOWvMwZRh74GgYjVI82lwG7mH2truXRxCpA",
+                "aspectRatio": "4"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "5193617a-f1a7-3109-a6cc-357be502289c",
+        "clientId": "Tklxudbb5xkqqgbc4xlvi57c5nq",
+        "lastModifiedTimestamp": "1550924786664000",
+        "recentTimestamp": "1550924786625000",
+        "name": "Link",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tklxudbb5xkqqgbc4xlvi57c5nq",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "title": "Link",
+                    "artist": "Jim Yosef",
+                    "composer": "",
+                    "album": "Link",
+                    "albumArtist": "Jim Yosef",
+                    "year": 2017,
+                    "trackNumber": 1,
+                    "genre": "Танцевальная/электронная музыка",
+                    "durationMillis": "224000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/Q6V2aeLavm0WeUJrqz1WNNOI6eTWN6WXx21e77e40tHC9CtjQpY7aPXi4MjnTAQWP-IoEYZ5",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "discNumber": 1,
+                    "estimatedSize": "8978845",
+                    "trackType": "7",
+                    "storeId": "Tklxudbb5xkqqgbc4xlvi57c5nq",
+                    "albumId": "ujicsb3kmxn6uhzv5pajfcmyzy",
+                    "artistId": [
+                        "npbh5fbdmtk5ue62iq3dzlwpuy"
+                    ],
+                    "nid": "klxudbb5xkqqgbc4xlvi57c5nq",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2"
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tklxudbb5xkqqgbc4xlvi57c5nq",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Q6V2aeLavm0WeUJrqz1WNNOI6eTWN6WXx21e77e40tHC9CtjQpY7aPXi4MjnTAQWP-IoEYZ5",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Q6V2aeLavm0WeUJrqz1WNNOI6eTWN6WXx21e77e40tHC9CtjQpY7aPXi4MjnTAQWP-IoEYZ5",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "f2219bed-814d-36cb-80a8-bafba9f42817",
+        "clientId": "T74cutjzeuvfgnhcapv5ejvkq34",
+        "lastModifiedTimestamp": "1551989182935000",
+        "recentTimestamp": "1551989182894000",
+        "name": "Hollaback Girl",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "T74cutjzeuvfgnhcapv5ejvkq34",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1551817890483662",
+                    "title": "Hollaback Girl",
+                    "artist": "Gwen Stefani",
+                    "composer": "Gwen Stefani",
+                    "album": "Love Angel Music Baby (Deluxe Version)",
+                    "albumArtist": "Gwen Stefani",
+                    "year": 2004,
+                    "trackNumber": 3,
+                    "genre": "Поп-музыка",
+                    "durationMillis": "199000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/7FJo1MKuVjl2S6PhFxL-eGhPliGO7d38qbhxDMkzAcy6UAOa_ZZEut-6Xsq7RE8rPBGu1tAxfA",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 4,
+                    "discNumber": 1,
+                    "estimatedSize": "7996641",
+                    "trackType": "7",
+                    "storeId": "T74cutjzeuvfgnhcapv5ejvkq34",
+                    "albumId": "q73yfkj5qzqwsacj7tfvjwdwke",
+                    "artistId": [
+                        "x7kklndr4ahminyk7ieygddkuq"
+                    ],
+                    "nid": "74cutjzeuvfgnhcapv5ejvkq34",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "1",
+                    "primaryVideo": {
+                        "kind": "sj#video",
+                        "id": "Kgjkth6BRRY",
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/vi/Kgjkth6BRRY/mqdefault.jpg",
+                                "width": 320,
+                                "height": 180
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "T74cutjzeuvfgnhcapv5ejvkq34",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/7FJo1MKuVjl2S6PhFxL-eGhPliGO7d38qbhxDMkzAcy6UAOa_ZZEut-6Xsq7RE8rPBGu1tAxfA",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/7FJo1MKuVjl2S6PhFxL-eGhPliGO7d38qbhxDMkzAcy6UAOa_ZZEut-6Xsq7RE8rPBGu1tAxfA",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Os-qF02TX-fp6ILqn2H6qcSGsvHMn26eKDBtxxzxFZLdnYAD6Gi50CkA",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/bcHkGvMsqjPp4SNn3m1ZCUHR3DQ38dx86-7pE5Ka-OLTebuhtukdj2-P",
+                "aspectRatio": "4"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "23cf46d7-ec5e-385b-8124-5a8d265f08f1",
+        "clientId": "Ahwj5x6jkeshajxohyddiilnw3e",
+        "lastModifiedTimestamp": "1552317286315000",
+        "recentTimestamp": "1552279451799000",
+        "name": "Кипелов",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "Ahwj5x6jkeshajxohyddiilnw3e",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "Kipelov",
+                    "artistArtRef": "http://lh3.googleusercontent.com/I_F1fP09EvSR3X2xSrFChVHEU-VRX2rA0PCOL5QNObcRhW4bCaIA6VBBPtcGCch53GvCII7jVg",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/I_F1fP09EvSR3X2xSrFChVHEU-VRX2rA0PCOL5QNObcRhW4bCaIA6VBBPtcGCch53GvCII7jVg",
+                            "aspectRatio": "2",
+                            "autogen": false
+                        }
+                    ],
+                    "artistId": "Ahwj5x6jkeshajxohyddiilnw3e",
+                    "artistBio": "Valerij Alexandrovich Kipelov is a Russian music artist and composer, who was the vocalist and a founding member of the heavy metal band Aria. Since 2002, Valery leads his own heavy metal band Kipelov.",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://en.wikipedia.org/wiki/Valery_Kipelov",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "artistId": "Ahwj5x6jkeshajxohyddiilnw3e",
+                "seedType": "3"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/I_F1fP09EvSR3X2xSrFChVHEU-VRX2rA0PCOL5QNObcRhW4bCaIA6VBBPtcGCch53GvCII7jVg",
+                "aspectRatio": "2",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/I_F1fP09EvSR3X2xSrFChVHEU-VRX2rA0PCOL5QNObcRhW4bCaIA6VBBPtcGCch53GvCII7jVg",
+                "aspectRatio": "2",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/6u7Rz7VZl5iZpTR5eQRs3E1-2HQM2iRt8C4cI66SPFigxwl8AeDWBbspTw",
+                "aspectRatio": "2"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/g9oK39LPf9a4KPeabmemVZjVJE93yMVymSlMNOzTNEOzoGQ7iYQBI3yBwQ",
+                "aspectRatio": "1"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "480abbd1-dbbe-3acb-adf6-042c6ce9fd0a",
+        "clientId": "Tn7nnao2d5ht45zbanc4rolip7i",
+        "lastModifiedTimestamp": "1552331054213000",
+        "recentTimestamp": "1552331054173000",
+        "name": "Вот и всё. Ну и что?",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tn7nnao2d5ht45zbanc4rolip7i",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1550834204522334",
+                    "title": "Вот и всё. Ну и что?",
+                    "artist": "Noize MC",
+                    "composer": "",
+                    "album": "Последний Альбом",
+                    "albumArtist": "Noize MC",
+                    "year": 2010,
+                    "trackNumber": 20,
+                    "genre": "Хип-хоп/рэп",
+                    "durationMillis": "177000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/HqfXPLTEIKQMVZOKVq6Pc9g_iLBUzA4nh9SRjevAv07MNAVAOYiKQ_6rs61jFX6DFzq-LIsE",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 4,
+                    "discNumber": 1,
+                    "estimatedSize": "7107433",
+                    "trackType": "7",
+                    "storeId": "Tn7nnao2d5ht45zbanc4rolip7i",
+                    "albumId": "6w5ky4fppa4wgkuiil6l344d4a",
+                    "artistId": [
+                        "cyjel3g5ab2pjuttxcgy62en3i"
+                    ],
+                    "nid": "n7nnao2d5ht45zbanc4rolip7i",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "1"
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tn7nnao2d5ht45zbanc4rolip7i",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/HqfXPLTEIKQMVZOKVq6Pc9g_iLBUzA4nh9SRjevAv07MNAVAOYiKQ_6rs61jFX6DFzq-LIsE",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/HqfXPLTEIKQMVZOKVq6Pc9g_iLBUzA4nh9SRjevAv07MNAVAOYiKQ_6rs61jFX6DFzq-LIsE",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "717e1792-f755-373e-b704-1ae74a051dbe",
+        "clientId": "Ajlrnsb5um76rmgd4boqxjijcse",
+        "lastModifiedTimestamp": "1552682190975000",
+        "recentTimestamp": "1552682190934000",
+        "name": "Fergie",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "Ajlrnsb5um76rmgd4boqxjijcse",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "Fergie",
+                    "artistArtRef": "http://lh3.googleusercontent.com/IEYGJ8lSaf3QjENd6HNosrZX7pg5JySZfxzc-CzUQtRyHo5m7gcthV5Yo-GQU4XYbiQ-92fu6Q",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/IEYGJ8lSaf3QjENd6HNosrZX7pg5JySZfxzc-CzUQtRyHo5m7gcthV5Yo-GQU4XYbiQ-92fu6Q",
+                            "aspectRatio": "2",
+                            "autogen": false
+                        }
+                    ],
+                    "artistId": "Ajlrnsb5um76rmgd4boqxjijcse",
+                    "artistBio": "Ферги Дюамель, урождённая Стейси Энн Фергюсон, более известная как Ферги — американская певица, дизайнер и актриса.",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D1%80%D0%B3%D0%B8",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "artistId": "Ajlrnsb5um76rmgd4boqxjijcse",
+                "seedType": "3"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/IEYGJ8lSaf3QjENd6HNosrZX7pg5JySZfxzc-CzUQtRyHo5m7gcthV5Yo-GQU4XYbiQ-92fu6Q",
+                "aspectRatio": "2",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/IEYGJ8lSaf3QjENd6HNosrZX7pg5JySZfxzc-CzUQtRyHo5m7gcthV5Yo-GQU4XYbiQ-92fu6Q",
+                "aspectRatio": "2",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/wU1LPThnh_UypqjSEDL42NoTcTfBk74XLYR7kEC9S5oYEbRFVNaK2HrrlSE",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/y0Uoqgdbq6Xi_9rwGhF_kskLgpSuUDt5BL04-PLM9azvJp0e35snbq1y1Q",
+                "aspectRatio": "2"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "928f6110-d906-3bd8-9639-bd8bef2757a7",
+        "clientId": "Tsbls7wvsooakeqgs4py4jb7t4m",
+        "lastModifiedTimestamp": "1552837092577000",
+        "recentTimestamp": "1552837092534000",
+        "name": "Tokyo Drift (Fast & Furious) (From \"The Fast And The Furious: Tokyo Drift\" Soundtrack)",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tsbls7wvsooakeqgs4py4jb7t4m",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1552330938857327",
+                    "title": "Tokyo Drift (Fast & Furious) (From \"The Fast And The Furious: Tokyo Drift\" Soundtrack)",
+                    "artist": "Teriyaki Boyz",
+                    "composer": "",
+                    "album": "The Fast And The Furious: Tokyo Drift (Original Motion Picture Soundtrack)",
+                    "albumArtist": "Various Artists",
+                    "year": 2006,
+                    "trackNumber": 1,
+                    "genre": "Танцевальная/электронная музыка",
+                    "durationMillis": "255000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/Zx_etOBjJ5gHi84jLSmOPRlDCfMEBL1y6mcVG7AllWxVEiZZjQpfH6ye_hdIL_U43Ek2_kiy-w",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 12,
+                    "discNumber": 1,
+                    "estimatedSize": "10209725",
+                    "trackType": "7",
+                    "storeId": "Tsbls7wvsooakeqgs4py4jb7t4m",
+                    "albumId": "3ukeq4gubrhlhethedwsilneom",
+                    "artistId": [
+                        "o7qfc2ub5mkwdqdahj3rzqcaoa"
+                    ],
+                    "nid": "sbls7wvsooakeqgs4py4jb7t4m",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2"
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tsbls7wvsooakeqgs4py4jb7t4m",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Zx_etOBjJ5gHi84jLSmOPRlDCfMEBL1y6mcVG7AllWxVEiZZjQpfH6ye_hdIL_U43Ek2_kiy-w",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Zx_etOBjJ5gHi84jLSmOPRlDCfMEBL1y6mcVG7AllWxVEiZZjQpfH6ye_hdIL_U43Ek2_kiy-w",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/T1PPP1nERROGLTi80IpoGKUEKcCvNA4LUG2hax6LPWnEwHxqtQwdkUElBxs",
+                "aspectRatio": "4"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/EMmp_tyL-mjAacG9IfP0ByE-Nj9CDb-l0O3IQT4zfgiVK8cizgNOuiuHNMA",
+                "aspectRatio": "1"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "7a36189a-8000-3c26-8506-78a96a4adf08",
+        "clientId": "Ttqjvb3dishflegkdz2eyyalazm",
+        "lastModifiedTimestamp": "1553965516512000",
+        "recentTimestamp": "1553965516469000",
+        "name": "X Gon' Give It To Ya",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Ttqjvb3dishflegkdz2eyyalazm",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1552331054426840",
+                    "title": "X Gon' Give It To Ya",
+                    "artist": "DMX",
+                    "composer": "",
+                    "album": "The Best Of DMX",
+                    "albumArtist": "DMX",
+                    "year": 2010,
+                    "trackNumber": 8,
+                    "genre": "Хип-хоп/рэп",
+                    "durationMillis": "219000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/Sp3RlA_cWxba_QMGMZiOLkvRUmXEBL1qXTGmHTC4Zt2yAja-AHOzUGz-Hur_eRwsm5pkLDQL",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 2,
+                    "discNumber": 1,
+                    "estimatedSize": "8772990",
+                    "trackType": "7",
+                    "storeId": "Ttqjvb3dishflegkdz2eyyalazm",
+                    "albumId": "cpl2lvxh5b7ukoapxeyl6lbacu",
+                    "artistId": [
+                        "i3cbyakjrnwfflmjinxi6tfpeu"
+                    ],
+                    "nid": "tqjvb3dishflegkdz2eyyalazm",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "1",
+                    "primaryVideo": {
+                        "kind": "sj#video",
+                        "id": "fGx6K90TmCI",
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/vi/fGx6K90TmCI/mqdefault.jpg",
+                                "width": 320,
+                                "height": 180
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Ttqjvb3dishflegkdz2eyyalazm",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Sp3RlA_cWxba_QMGMZiOLkvRUmXEBL1qXTGmHTC4Zt2yAja-AHOzUGz-Hur_eRwsm5pkLDQL",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/hrZ-XvcszYTtTxShH5uIp0Tcy-gLGRz1v8kJCS00uxSnJoo51mD-6fhCmg",
+                "aspectRatio": "4"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/QG1fZoZfySYSIEGLhZICqWtTqUZaojgerk8xhzQI2fhbHKgnBnQR0tRr4g",
+                "aspectRatio": "1"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "ee7a8e9a-6b71-3961-b09e-7804542d03ed",
+        "clientId": "357fcff3-697b-40f0-917f-fe2e7d5e8843",
+        "lastModifiedTimestamp": "1554094888215000",
+        "recentTimestamp": "1541591963698000",
+        "name": "Sabaton",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "A4p4x2fy6ohx7nxvj7tllmdrm6u",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "Sabaton",
+                    "artistArtRef": "http://lh3.googleusercontent.com/C9ukMP-FlhuTMzUIww-atDRb7pK4RT72E8Kz80bpny0LRJ3sUXKRRqAKg9hxjVf4jHupE3iE6w",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/C9ukMP-FlhuTMzUIww-atDRb7pK4RT72E8Kz80bpny0LRJ3sUXKRRqAKg9hxjVf4jHupE3iE6w",
+                            "aspectRatio": "2",
+                            "autogen": false
+                        }
+                    ],
+                    "artistId": "A4p4x2fy6ohx7nxvj7tllmdrm6u",
+                    "artistBio": "Sabaton is a Swedish power metal band from Falun. The band's main lyrical themes are based on war, historical battles, and acts of heroism—the name is a reference to a sabaton, knight's foot armor. The armor and battle theme is heard in the albums Primo Victoria, The Art of War, Coat of Arms, Carolus Rex, Heroes, and The Last Stand in which all of the songs contain these motifs, except final tracks which are tribute songs to influential heavy metal bands. Lyrical content drawn from World War I, World War II and other historical conflicts is prevalent and lyrics often recite stories of heroic deeds by men and armies.\nIn December 2015, five songs by the band were added to the third external music pack for the strategy game Europa Universalis IV.\nOn June 6, 2016, the 72nd anniversary of D-Day, they released a music pack for the Paradox game Hearts of Iron IV with songs based on World War II, the theme of the game. They released a second on January 26, 2017.",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://en.wikipedia.org/wiki/Sabaton_(band)",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/C9ukMP-FlhuTMzUIww-atDRb7pK4RT72E8Kz80bpny0LRJ3sUXKRRqAKg9hxjVf4jHupE3iE6w",
+                "aspectRatio": "2",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/C9ukMP-FlhuTMzUIww-atDRb7pK4RT72E8Kz80bpny0LRJ3sUXKRRqAKg9hxjVf4jHupE3iE6w",
+                "aspectRatio": "2",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/GC_t3t1dOIe45QpZWGdyr4tasz7Jne6PJhwRzo7GnLvFDu44ySOGv8v3",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/cJa_ZSnMPU5BC6EgiKfRifS01PP6tWMZXtAyXJQNeDT-uJfQf9BkBSqN2Q",
+                "aspectRatio": "2"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "f7f4bf3f-5bfa-30fa-8a87-236a4c0eee29",
+        "clientId": "Tw22sgr7vxgzqqfbb7exs2hgqc4",
+        "lastModifiedTimestamp": "1554320164637000",
+        "recentTimestamp": "1554320164597000",
+        "name": "Right Round (feat. Ke$ha)",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tw22sgr7vxgzqqfbb7exs2hgqc4",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "title": "Right Round (feat. Ke$ha)",
+                    "artist": "Flo Rida",
+                    "composer": "",
+                    "album": "Right Round Feat. Ke$ha (International)",
+                    "albumArtist": "Flo Rida",
+                    "year": 2009,
+                    "trackNumber": 1,
+                    "genre": "Хип-хоп/рэп",
+                    "durationMillis": "207000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.ggpht.com/9wZQPXrwZdoJDa-F4wK9iyHPSl4NiMNJXmWc_Ju5RD_jU2je9ntsXEPjeM56VWVZEproI_waPg",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "discNumber": 1,
+                    "estimatedSize": "8321594",
+                    "trackType": "7",
+                    "storeId": "Tw22sgr7vxgzqqfbb7exs2hgqc4",
+                    "albumId": "tsvz36oiyco3sl744x2c3ar74u",
+                    "artistId": [
+                        "fsyvsoz36ym7vhjzwz3htjqs7e",
+                        "zjigf4fiqoid22nwzdsb6m7h4u"
+                    ],
+                    "nid": "w22sgr7vxgzqqfbb7exs2hgqc4",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2",
+                    "primaryVideo": {
+                        "kind": "sj#video",
+                        "id": "CcCw1ggftuQ",
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/vi/CcCw1ggftuQ/mqdefault.jpg",
+                                "width": 320,
+                                "height": 180
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tw22sgr7vxgzqqfbb7exs2hgqc4",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.ggpht.com/9wZQPXrwZdoJDa-F4wK9iyHPSl4NiMNJXmWc_Ju5RD_jU2je9ntsXEPjeM56VWVZEproI_waPg",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.ggpht.com/9wZQPXrwZdoJDa-F4wK9iyHPSl4NiMNJXmWc_Ju5RD_jU2je9ntsXEPjeM56VWVZEproI_waPg",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/x6rVQKyvedlhN9tMDBQ_h5g9OH3kebS0kVGpOl9f7kGRY9VnH0phevWouA",
+                "aspectRatio": "4"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/Qjm7AXIPIJHjLHcyXjGEhqJxjK8keaWtEkXE024eirdNx7SJgo3JyqQ3yg",
+                "aspectRatio": "1"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "661517f2-2049-31a0-b9c7-8a83ff898e9d",
+        "clientId": "Ai3cbyakjrnwfflmjinxi6tfpeu",
+        "lastModifiedTimestamp": "1554381519558000",
+        "recentTimestamp": "1554381519517000",
+        "name": "DMX",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "Ai3cbyakjrnwfflmjinxi6tfpeu",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "DMX",
+                    "artistArtRef": "http://lh3.googleusercontent.com/0OaD6X4Ve3cX6bnUr3iqBV7WieV1JY8cj_HF1sVFwoIsf9-cGM5kpTFaeQJk7VgqrVW53He1jg",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/0OaD6X4Ve3cX6bnUr3iqBV7WieV1JY8cj_HF1sVFwoIsf9-cGM5kpTFaeQJk7VgqrVW53He1jg",
+                            "aspectRatio": "2",
+                            "autogen": false
+                        }
+                    ],
+                    "artistId": "Ai3cbyakjrnwfflmjinxi6tfpeu",
+                    "artistBio": "Эрл Си́ммонс, более известный под псевдонимом DMX — американский рэпер и актёр. Шесть его альбомов подряд дебютировали на первой строчке хит-парада Billboard 200, что является беспрецедентным феноменом. DMX также снялся в нескольких фильмах, самые известные из которых — «Ромео должен умереть», «Сквозные ранения» и «От колыбели до могилы».",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://ru.wikipedia.org/wiki/DMX",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "artistId": "Ai3cbyakjrnwfflmjinxi6tfpeu",
+                "seedType": "3"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/0OaD6X4Ve3cX6bnUr3iqBV7WieV1JY8cj_HF1sVFwoIsf9-cGM5kpTFaeQJk7VgqrVW53He1jg",
+                "aspectRatio": "2",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/0OaD6X4Ve3cX6bnUr3iqBV7WieV1JY8cj_HF1sVFwoIsf9-cGM5kpTFaeQJk7VgqrVW53He1jg",
+                "aspectRatio": "2",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/HAhS2cW_PrE3ytJIsPNsNzwlM7XrB86mK71zFTkb4GahXJrwRZ_b4Vj1nXg",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/-Bd90B6Fa-AlQgpQL5udrJ7-q5y2zSqjT-AdVSmq3ScHcBRrtg0YuWZy",
+                "aspectRatio": "2"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "de36bc59-54e6-3d7f-b772-fe9bf7ef0d82",
+        "clientId": "A2b3rfqyocxgsyapatp2co3qkym",
+        "lastModifiedTimestamp": "1554436245924000",
+        "recentTimestamp": "1554436245881000",
+        "name": "Скрябин",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "A2b3rfqyocxgsyapatp2co3qkym",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "Скрябин",
+                    "artistArtRef": "http://lh3.googleusercontent.com/IhYkuZtiZRgH9wzOn2wp15DQULU1ftiKAZbnOHdwZzrr0nzrL33ckV0W5gshVhAfG76dKOTl",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/IhYkuZtiZRgH9wzOn2wp15DQULU1ftiKAZbnOHdwZzrr0nzrL33ckV0W5gshVhAfG76dKOTl",
+                            "aspectRatio": "2",
+                            "autogen": true
+                        },
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh5.ggpht.com/GNs0PEG2UclOrhP32HLyAINAkAEo3f8usorFgvrMvLTqwy6heHAh2m_jcz-dJpE8jCo6Y_syWjU",
+                            "aspectRatio": "1",
+                            "autogen": true
+                        }
+                    ],
+                    "artistId": "A2b3rfqyocxgsyapatp2co3qkym",
+                    "artistBio": "«Скрябін» — музыкальный проект украинского музыканта Андрея Кузьменко. Группа была основана в 1989 году и первоначально состояла из четырёх участников. На протяжении всего творчества коллектив претерпел значительные изменения — от электронной альтернативы и дарквэйва к поп-року.",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D1%80%D1%8F%D0%B1%D0%B8%D0%BD_(%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0)",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "artistId": "A2b3rfqyocxgsyapatp2co3qkym",
+                "seedType": "3"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/IhYkuZtiZRgH9wzOn2wp15DQULU1ftiKAZbnOHdwZzrr0nzrL33ckV0W5gshVhAfG76dKOTl",
+                "aspectRatio": "2",
+                "autogen": true
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/IhYkuZtiZRgH9wzOn2wp15DQULU1ftiKAZbnOHdwZzrr0nzrL33ckV0W5gshVhAfG76dKOTl",
+                "aspectRatio": "2",
+                "autogen": true
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh5.ggpht.com/GNs0PEG2UclOrhP32HLyAINAkAEo3f8usorFgvrMvLTqwy6heHAh2m_jcz-dJpE8jCo6Y_syWjU",
+                "aspectRatio": "1",
+                "autogen": true
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/hTaM18QLCXsSpNoxXg54eOfbzuDKFepXGUSQhh8_zl1NZHz3Voioawon0no",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/qFXLyF_GKB4Jithp9w8fzp2KpR-aDNwQv7hRJj_gKXBE2IMWxWxUDXU9sA",
+                "aspectRatio": "2"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "7ea84544-b8d4-38d1-af99-6f08dc886928",
+        "clientId": "T6b7uzzsxqwuwvuynxww32tiaai",
+        "lastModifiedTimestamp": "1554436385387000",
+        "recentTimestamp": "1554436385344000",
+        "name": "My Humps",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "T6b7uzzsxqwuwvuynxww32tiaai",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "lastModifiedTimestamp": "1553256438609203",
+                    "title": "My Humps",
+                    "artist": "The Black Eyed Peas",
+                    "composer": "",
+                    "album": "Monkey Business",
+                    "albumArtist": "The Black Eyed Peas",
+                    "year": 2005,
+                    "trackNumber": 5,
+                    "genre": "Поп-музыка",
+                    "durationMillis": "326000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/nfoYlv8NhPX9S-NNtc7CaWYUj9xp8OQ05FPdsiCNcrJ1_PqkiiqD8h6JooOsN_jxTiM6SQYvAOg",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "playCount": 9,
+                    "discNumber": 1,
+                    "estimatedSize": "13081104",
+                    "trackType": "7",
+                    "storeId": "T6b7uzzsxqwuwvuynxww32tiaai",
+                    "albumId": "ombj5thp2jtktnrlyuxhhu6454",
+                    "artistId": [
+                        "cgx6evdjbgcpgmxjohenrdlwsq",
+                        "kid2kz3f3nepybdl2jdr2ni6cy",
+                        "jlrnsb5um76rmgd4boqxjijcse"
+                    ],
+                    "nid": "6b7uzzsxqwuwvuynxww32tiaai",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "2",
+                    "primaryVideo": {
+                        "kind": "sj#video",
+                        "id": "iEe_eraFWWs",
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/vi/iEe_eraFWWs/mqdefault.jpg",
+                                "width": 320,
+                                "height": 180
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "T6b7uzzsxqwuwvuynxww32tiaai",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/nfoYlv8NhPX9S-NNtc7CaWYUj9xp8OQ05FPdsiCNcrJ1_PqkiiqD8h6JooOsN_jxTiM6SQYvAOg",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/nfoYlv8NhPX9S-NNtc7CaWYUj9xp8OQ05FPdsiCNcrJ1_PqkiiqD8h6JooOsN_jxTiM6SQYvAOg",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/U21qwwrzTmga6ZnDLurma4cl8OxbzYw3_ZrqDnM-PafPuOtomX5UoTL2rw",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/wEN7EpnKR5ZskcqWXnoS9h-53EqMmbCTwE0CXJNsM-Ffl75Me7easRZs",
+                "aspectRatio": "4"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "d4170181-1436-349e-b152-ed96c1a0e034",
+        "clientId": "Tbcgmx3do6omgql3375t2dv5y2m",
+        "lastModifiedTimestamp": "1554533119106000",
+        "recentTimestamp": "1554533119066000",
+        "name": "Still D.R.E. (feat. Snoop Dogg)",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "trackId": "Tbcgmx3do6omgql3375t2dv5y2m",
+            "seedType": "2",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "track": {
+                    "kind": "sj#track",
+                    "title": "Still D.R.E. (feat. Snoop Dogg)",
+                    "artist": "Dr. Dre",
+                    "composer": "",
+                    "album": "2001 (Bonus Tracks)",
+                    "albumArtist": "Dr. Dre",
+                    "year": 1999,
+                    "trackNumber": 4,
+                    "genre": "Хип-хоп/рэп",
+                    "durationMillis": "270000",
+                    "albumArtRef": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/rfp23NKf5DxjtVmgdOtk_ckK3CEEvEwqdf54SlnpgjjIbBH5aQ9FwHvUhdWIuKV37wtU17hC",
+                            "aspectRatio": "1",
+                            "autogen": false
+                        }
+                    ],
+                    "discNumber": 1,
+                    "estimatedSize": "10826224",
+                    "trackType": "7",
+                    "storeId": "Tbcgmx3do6omgql3375t2dv5y2m",
+                    "albumId": "6t3bfimlpaqb6udif4hebsqndi",
+                    "artistId": [
+                        "hyyn66hfnbzogv5i7m2d2u4fpq",
+                        "fq6okfwswnkywyl7q7rnmuoj2q"
+                    ],
+                    "nid": "bcgmx3do6omgql3375t2dv5y2m",
+                    "trackAvailableForSubscription": true,
+                    "trackAvailableForPurchase": true,
+                    "albumAvailableForPurchase": false,
+                    "explicitType": "1"
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "trackId": "Tbcgmx3do6omgql3375t2dv5y2m",
+                "seedType": "2"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/rfp23NKf5DxjtVmgdOtk_ckK3CEEvEwqdf54SlnpgjjIbBH5aQ9FwHvUhdWIuKV37wtU17hC",
+                "aspectRatio": "1",
+                "autogen": false
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/rfp23NKf5DxjtVmgdOtk_ckK3CEEvEwqdf54SlnpgjjIbBH5aQ9FwHvUhdWIuKV37wtU17hC",
+                "aspectRatio": "1",
+                "autogen": false
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/K4IG62dhRjSli2IfMVzqLSiIDqjXzlWKRilM0sB1gi_yeSK3fviKzfLUrA",
+                "aspectRatio": "1"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/UTexrXDxn548CcwkXoCuU8SGE72QzC8c1B27AR7ZqFsAh9fP3_0_f8gFbts",
+                "aspectRatio": "4"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": false
+    },
+    {
+        "kind": "sj#radioStation",
+        "id": "83ad3816-8cec-331f-8709-ea13391a0f8e",
+        "clientId": "Agcz6xqjnlihp3wcmyfqio4h37q",
+        "lastModifiedTimestamp": "1554642353395000",
+        "recentTimestamp": "1554349466117000",
+        "name": "Король и Шут",
+        "description": "",
+        "seed": {
+            "kind": "sj#radioSeed",
+            "artistId": "Agcz6xqjnlihp3wcmyfqio4h37q",
+            "seedType": "3",
+            "metadataSeed": {
+                "kind": "sj#radioSeedMetadata",
+                "artist": {
+                    "kind": "sj#artist",
+                    "name": "Korol i Shut",
+                    "artistArtRef": "http://lh3.googleusercontent.com/bL7lwn228wYiQEUORzCE2U49ULRoo13PBWaBNZqsfKg3g8ZKDjd3FaanJJSpc3AYiVI5BKKa",
+                    "artistArtRefs": [
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh3.googleusercontent.com/bL7lwn228wYiQEUORzCE2U49ULRoo13PBWaBNZqsfKg3g8ZKDjd3FaanJJSpc3AYiVI5BKKa",
+                            "aspectRatio": "2",
+                            "autogen": true
+                        },
+                        {
+                            "kind": "sj#imageRef",
+                            "url": "http://lh4.ggpht.com/p_ShE0sD1In_-bgMnw66_lZfEezLjTZoQbeW5FDcphur9NkM-DZpMNye0-xJRiP-mOWULPfa7ys",
+                            "aspectRatio": "1",
+                            "autogen": true
+                        }
+                    ],
+                    "artistId": "Agcz6xqjnlihp3wcmyfqio4h37q",
+                    "artistBio": "Korol' i Shut were a Russian horror punk band from Saint Petersburg that took inspiration and costumes from tales and fables. In Russia this band has an iconic status.",
+                    "artist_bio_attribution": {
+                        "kind": "sj#attribution",
+                        "source_title": "Wikipedia",
+                        "source_url": "https://en.wikipedia.org/wiki/Korol_i_Shut",
+                        "license_title": "Creative Commons Attribution CC-BY-SA 4.0",
+                        "license_url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                    }
+                }
+            }
+        },
+        "stationSeeds": [
+            {
+                "kind": "sj#radioSeed",
+                "artistId": "Agcz6xqjnlihp3wcmyfqio4h37q",
+                "seedType": "3"
+            }
+        ],
+        "imageUrls": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/pxs2eXISxOpvI7yr5HMEgoMm_sdrU8X8-e0ahFgciIT0YZpj2ydrXNUCumA2lSJJSJPhGjUwnA",
+                "aspectRatio": "2",
+                "autogen": true
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/bL7lwn228wYiQEUORzCE2U49ULRoo13PBWaBNZqsfKg3g8ZKDjd3FaanJJSpc3AYiVI5BKKa",
+                "aspectRatio": "2",
+                "autogen": true
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/bL7lwn228wYiQEUORzCE2U49ULRoo13PBWaBNZqsfKg3g8ZKDjd3FaanJJSpc3AYiVI5BKKa",
+                "aspectRatio": "2",
+                "autogen": true
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh4.ggpht.com/p_ShE0sD1In_-bgMnw66_lZfEezLjTZoQbeW5FDcphur9NkM-DZpMNye0-xJRiP-mOWULPfa7ys",
+                "aspectRatio": "1",
+                "autogen": true
+            }
+        ],
+        "compositeArtRefs": [
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/S4FF0r9cPgTAXUY3lgovGpzmhx2ggzjfQv5Mr6XFY0UJa7_oyFi3gWFOHA",
+                "aspectRatio": "2"
+            },
+            {
+                "kind": "sj#imageRef",
+                "url": "http://lh3.googleusercontent.com/DvKNzCBG7VT6cxgdoMyGDK7kVRR_JmDaKER31Fl8mrI6RFzS3WsSBmi5Hg",
+                "aspectRatio": "1"
+            }
+        ],
+        "deleted": false,
+        "skipEventHistory": [],
+        "inLibrary": true
+    }
+]

@@ -295,6 +295,9 @@
       <height>211</height>
      </rect>
     </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::NoDragDrop</enum>
+    </property>
    </widget>
    <widget class="QTableWidget" name="songsView">
     <property name="geometry">
@@ -304,6 +307,9 @@
       <width>251</width>
       <height>211</height>
      </rect>
+    </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::NoDragDrop</enum>
     </property>
    </widget>
   </widget>
@@ -320,6 +326,8 @@
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionSelect"/>
+    <addaction name="actionClear"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -347,6 +355,26 @@
    <addaction name="menuProperties"/>
    <addaction name="menuAbout"/>
   </widget>
+  <action name="actionSelect">
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionAdd_more">
+   <property name="text">
+    <string>Add more</string>
+   </property>
+  </action>
+  <action name="actionClear_2">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
