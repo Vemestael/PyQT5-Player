@@ -244,6 +244,7 @@ class MyWin(QtWidgets.QMainWindow):
         filesystem.save_json(songs, "json/music.json")
 
     def add_music(self):
+        self.get_all_songs()
         songs = filesystem.load_json("json/music.json")
         self.clear_song_view()
         self.TableView(self.ui.songsView)
