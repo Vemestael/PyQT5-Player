@@ -1,5 +1,5 @@
 import sys, os
-from player import *
+from gui import *
 import keyboard
 from PyQt5 import QtCore, QtWidgets, QtGui, QtMultimedia
 from ia256utilities import filesystem
@@ -38,6 +38,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.actionClear.triggered.connect(self.clear_song_view)
         self.ui.pushButton.clicked.connect(self.g_play_music_login)
         self.ui.pushButton_2.clicked.connect(self.add_music)
+        self.ui.pushButton_3.clicked.connect(self.song_view_display)
 
         self.RowCount = 0
         self.play_status = False
@@ -64,6 +65,14 @@ class MyWin(QtWidgets.QMainWindow):
         table.setSelectionMode(QtWidgets.QAbstractItemView.SingleSelection)
         table.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         table.horizontalHeader().setStretchLastSection(True)
+
+    def song_view_display(self):
+        if self.ui.songsView.isHidden():
+            self.ui.songsView.show()
+            self.setFixedWidth(576)
+        else:
+            self.ui.songsView.hide()
+            self.setFixedWidth(325)
 
     def Play(self):
         if (self.play_status == False):
