@@ -59,7 +59,7 @@ class Ui_MainWindow(object):
         self.pushButton.setMaximumSize(QtCore.QSize(35, 35))
         self.pushButton.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("connect.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("disconnect.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton.setIcon(icon1)
         self.pushButton.setIconSize(QtCore.QSize(35, 36))
         self.pushButton.setObjectName("pushButton")

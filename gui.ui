@@ -126,7 +126,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>connect.png</normaloff>connect.png</iconset>
+            <normaloff>disconnect.png</normaloff>disconnect.png</iconset>
           </property>
           <property name="iconSize">
            <size>

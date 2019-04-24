@@ -245,8 +245,12 @@ class MyWin(QtWidgets.QMainWindow):
         self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
 
     def g_play_music_login(self):
-        self.gmusic_api.oauth_login(self.gmusic_api.FROM_MAC_ADDRESS, "json/oauth_data.json")
-        print(self.gmusic_api.is_authenticated())
+        if self.gmusic_api.oauth_login(self.gmusic_api.FROM_MAC_ADDRESS, "json/oauth_data.json"):
+            self.ui.pushButton.setIcon(QtGui.QIcon("Connect.png"))
+        else:
+            self.ui.pushButton.setIcon(QtGui.QIcon("Connect.png"))
+            self.ui.pushButton.setIcon(QtGui.QIcon("Disconnect.png"))
+
 
     def get_all_songs(self):
         songs = self.gmusic_api.get_all_songs()
