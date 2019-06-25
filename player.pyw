@@ -247,6 +247,7 @@ class MyWin(QtWidgets.QMainWindow):
     def g_play_music_login(self):
         if self.gmusic_api.oauth_login(self.gmusic_api.FROM_MAC_ADDRESS, "json/oauth_data.json"):
             self.ui.pushButton.setIcon(QtGui.QIcon("Connect.png"))
+            self.pushButton_2.setEnabled(True)
         else:
             self.ui.pushButton.setIcon(QtGui.QIcon("Connect.png"))
             self.ui.pushButton.setIcon(QtGui.QIcon("Disconnect.png"))
@@ -274,15 +275,12 @@ class MyWin(QtWidgets.QMainWindow):
 
     def get_stream_url(self, index):
         url = self.m_playlist.media(index).canonicalUrl().url()
-        print(url)
         if url.find(":", 1, 2) == -1:
             url = self.gmusic_api.get_stream_url(url)
             url = QtCore.QUrl(url)
             self.m_playlist.addMedia(QtMultimedia.QMediaContent(url))
-            self.m_playlist.moveMedia(index, self.m_playlist.mediaCount() - 1)
-            self.m_playlist.removeMedia(self.m_playlist.mediaCount() - 1)
-            url = self.m_playlist.media(index).canonicalUrl().url()
-            print(url)
+            self.m_playlist.moveMedia(self.m_playlist.mediaCount() - 1, index)
+            self.m_playlist.removeMedia(index + 1)
 
 
 if __name__ == "__main__":
